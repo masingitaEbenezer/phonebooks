@@ -4,7 +4,7 @@ import { PhonebookModule } from './phonebook/phonebook.module';
 
 @Module({
 	imports: [
-		MongooseModule.forRoot("mongodb+srv://<masingita>:<Masingita@01>@cluster0.visiq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", { autoCreate: true }),
+		MongooseModule.forRoot("mongodb+srv://masingita:Masingita01@cluster0.visiq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", { autoCreate: true }),
 		PhonebookModule,
 	],
 	controllers: [],
